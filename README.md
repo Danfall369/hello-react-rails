@@ -113,13 +113,13 @@ executing the command `yarn run bundle`
 and then:
 
 ```sh
-executing the command `bin/dev`
+executing the command `./bin/dev`
 ```
 
 after that go the URL:
 
 ```sh
-localhost:3000
+http://localhost:3000/
 ```
 
 
