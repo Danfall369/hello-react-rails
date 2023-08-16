@@ -8,7 +8,6 @@ function Message() {
   useEffect(() => {
     dispatch(getMessages());
   }, [dispatch]);
-  console.log(message.content);
   return <h3>{message.content}</h3>;
 }
 export default Message;
