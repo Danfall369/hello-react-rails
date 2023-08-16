@@ -1,118 +1,177 @@
-# Hello React Rails app
+<!-- TABLE OF CONTENTS -->
 
-A **Hello React Rails app** By now you've used many different gems with Rails and this exercise will have you connect previous knowledge with new knowledge as you get a chance to use Webpack with jsbundling-rails gem.
+# 📗 Index
 
-## Live demo link
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🔭 Features](#features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-N/A
+<!-- PROJECT DESCRIPTION -->
 
-#### Hello React Rails Screenshots
+# 📖 [Hello React Rails] `[Ruby on Rails] and [React-Redux]` <a name="about-project"></a>
 
-<table>
-  <tr>
-     <td>Greeting 1</td>
-     <td>Greeting 2</td>
-     <td>Greeting 3</td>
-  </tr>
-  <tr>
-    <td><img src="https://i.imgur.com/6e9PcSt.png"></td>
-    <td><img src="https://i.imgur.com/jcmN8II.png"></td>
-    <td><img src="https://i.imgur.com/QaBEbYz.png"></td>
-  </tr>
- </table>
 
-## Getting Started
+In this project, you will explore the integration of React Redux within a Rails repository to create a dynamic application that deploys random messages fetched from a Rails API. This project aims to provide hands-on experience in setting up a client-server architecture, utilizing state management with React Redux, and deploying a combined application.
 
-To run the project locally, copy up and running follow these simple example steps :
+## 🛠 Built With <a name="built-with"></a>
 
-- First of all make sure you have both `Ruby` & `Rails` installed in your machine
-  (else You can install `Rails` just with this simple command `gem install rails`)
-- clone the project with the following command line :
+### Tech Stack <a name="tech-stack"></a>
 
+<details>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://www.ruby-lang.org/es/">Ruby</a></li>
+      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+      <li><a href="https://es.react.dev/">React</a></li>
+      <li><a href="https://redux.js.org/">Redux</a></li>
+    </ul>
+  </details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+   <li><a href="https://www.postgresql.org/">Data Storaged with PostgreSQL manager</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+  - **[Rails API Setup]
+  - **[React-Redux Integration]
+  - **[Random Message Generation]
+  - **[API Communication]
+  - **[React Components]
+  - **[Redux State Management]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Preview <a name="live-demo"></a>
+
+[How can Run the Project](https://www.loom.com/share/6bdca905a66a45128a16c6d85f8b6c45?sid=86188dc7-fae8-4572-9dd9-c3b120788bbb)
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ To have Ruby, Ruby on Rails and a Postgres database manager settle up on your system
 ```
-$ git clone https://github.com/Danfall369/hello-react-rails.git
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/Danfall369/hello-react-rails.git
 ```
 
-- Then go to the right folder
+### Install
 
-```
-$ cd hello-react-rails
-```
-
-```
-$ bundle install
+```sh
+  Run bundle install to install all the gems and dependencies.
 ```
 
-and run to install npm package and yarn package
-
-```
-$ npm install
+```sh
+  Run npm install to install all the npm and dependencies.
 ```
 
-and
-
-```
-$ yarn install
+```sh
+  Run yarn install to install all the yarn and dependencies.
 ```
 
-make sure the database is up and running.
+### Usage
 
-```
-$ rails db:create
-```
+To run the project, execute the following command:
 
-When you will add migration file then, you can add command like
-
-```
-$ rails db:migrate
+```sh
+executing the command `yarn run bundle`
 ```
 
-Them, run the Seed file
+and then:
 
+```sh
+executing the command `./bin/dev`
 ```
-$ rails db:seed
+
+after that go the URL:
+
+```sh
+http://localhost:3000/
 ```
 
-- Finaly run `yarn run build` and visit http://localhost:3000/ in your browser!
 
-## Run tests :
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-No test available for this proyect
+<!-- AUTHOR -->
 
-## Built With
+## 👥 Authors <a name="author"></a>
 
-- Ruby on RAils <img src="https://cdn.emojidex.com/emoji/seal/Ruby.png" width=15px>
-- PostgreSQL <img src="https://user-images.githubusercontent.com/80895497/142954032-f7072df9-3586-48f9-a9e0-7fdd284eb833.png" width=15px>
-- React <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width=15px>
-- Redux <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png?20180308172936" width=20px>
-
-</br>
-
-## Authors
-
-👤 **Daniel Falcon**
-
-- GitHub: [Github](https://github.com/Danfall369)
+👤 **Daniel Falcon** 
+- GitHub: [Github](https://github.com/Danfall369) |
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/danfall369/)
 
-## 🤝 Contributing
+<!-- FEATURES -->
+
+## 🔭 Features <a name="features"></a>
+
+- [ ] ** [🔄 Fetch Random Message]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Danfall369/hello-react-rails/issues).
+Feel free to check the <a href="https://github.com/Danfall369/hello-react-rails/issues">Issue Page</a>
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Inspiration 💘
-- Microverse program ⚡
-- My standup team 😍
-- My family's support 🙌
-- MicroBros 😜
+If you like this project, give it a star and be pending on our profiles since we'll be doing much more! 
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./LICENSE) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Also, we would like to thank our Microverse Team and my partners for helping us to get this done.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
