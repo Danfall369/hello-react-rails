@@ -64,7 +64,7 @@ In this project, you will explore the integration of React Redux within a Rails 
 
 ## 🚀 Preview <a name="live-demo"></a>
 
-Not required
+[How can Run the Project](https://www.loom.com/share/6bdca905a66a45128a16c6d85f8b6c45?sid=86188dc7-fae8-4572-9dd9-c3b120788bbb)
 
 <!-- GETTING STARTED -->
 
